@@ -12,65 +12,7 @@ structured and unstructured data that has been synthetically generated.
 ## Files Explaination
 
 
-./
-│
-├── chatbot_api/
-│   │
-│   │
-│   ├── src/
-│   │   │
-│   │   ├── agents/
-│   │   │   └── hospital_rag_agent.py
-│   │   │
-│   │   ├── chains/
-│   │   │   │
-│   │   │   ├── hospital_cypher_chain.py
-│   │   │   └── hospital_review_chain.py
-│   │   │   └── _init_.py
-│   │   ├── models/
-│   │   │   └── hospital_rag_query.py
-│   │   │   └── _init_.py
-│   │   │
-│   │   ├── tools/
-│   │   │   └── wait_times.py
-│   │   │   └── _init_.py
-│   │   │
-│   │   ├── utils/
-│   │   │   └── async_utils.py
-│   │   │   └── _init_.py
-│   │   │
-│   │   ├── entrypoint.sh
-│   │   └── main.py
-│   │   └── _init_.py
-│   │
-│   ├── Dockerfile
-│   └── pyproject.toml
-│
-├── chatbot_frontend/
-│   │
-│   ├── src/
-│   │   ├── entrypoint.sh
-│   │   └── main.py
-│   │
-│   ├── Dockerfile
-│   └── pyproject.toml
-│
-├── hospital_neo4j_etl/
-│   │
-│   ├── src/
-│   │   ├── entrypoint.sh
-│   │   └── hospital_bulk_csv_write.py
-│   │
-│   ├── Dockerfile
-│   └── pyproject.toml
-│
-├── tests/
-│   ├── async_agent_requests.py
-│   └── sync_agent_requests.py
-│
-├── .env
-└── docker-compose.yml
-
+![alt text](Diretories.png)
 
 ## Running Instructions 
 
