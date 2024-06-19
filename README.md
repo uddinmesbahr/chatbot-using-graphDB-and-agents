@@ -6,8 +6,8 @@ structured and unstructured data that has been synthetically generated.
 
 ## Flowchart
 
-(./Flowchart.png)
-![alt text](image.png)
+
+![alt text](blank.png)
 
 ## Files Explaination
 
